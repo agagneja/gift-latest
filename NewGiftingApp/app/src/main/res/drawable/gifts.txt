@@ -1,0 +1,202 @@
+[
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "5"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "cdayanand-pre@paypal.com",
+            "full_name": "Chinta Raja Dayanand PRE"
+        },
+        "type": "gift",
+        "id": "PY7hEsdK-2b3ZiT0ACF5qO8sm9jnzOimIOP6_pi1fNqWk219zTni2JfDSAYnjd9wURRVkm"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "4"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "cdayanand-pre@paypal.com",
+            "full_name": "Chinta Raja Dayanand PRE"
+        },
+        "type": "gift",
+        "id": "f-aGD7YGqrxtNw0Z1LM5eMPuuSgx4aSk12qyef1R6tB3Sml1vid-sdRqour_JEFTUyTZ2G"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "1.00"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "me@paypal.com",
+            "full_name": "None"
+        },
+        "type": "gift",
+        "id": "HDEqnaW55_mk84J1eM1UgciczH6f1ZWHeuGwmP2Z7CybMUJsU1e6f3DZj25_BrmtnFsJ7G"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "6"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "cdayanand-pre@paypal.com",
+            "full_name": "Chinta Raja Dayanand PRE"
+        },
+        "type": "gift",
+        "id": "6Hkg8TJEOZLYgi41AFrs7zKyLDM3i5aHQSdA3xotqeO7ZbgwfUgJc7wXufu5p7_FGDOuH0"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "1.00"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "me@paypal.com",
+            "full_name": "None"
+        },
+        "type": "gift",
+        "id": "IgiMvHcD49fq3hYbNbyx-F2IQ82POwBEYZzASfi0oSUor7StAwwgn-GUtUUHul-ivo1ESm"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "1.00"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "me@paypal.com",
+            "full_name": "None"
+        },
+        "type": "gift",
+        "id": "qLaT2-Cm2k1493PoBnZ1_HgDGOV7sluOfkTObZ-NZmPBuqCShdZEUzhWnLHoTfE8rAbCYW"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "1.00"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "me@paypal.com",
+            "full_name": "None"
+        },
+        "type": "gift",
+        "id": "UIox927865QBT9lp4tAFI-sitIF86n9R99GA1m8hm5YHHujYVLYf4MnF96klQoZAOgzj9m"
+    },
+    {
+        "status": "CREATED",
+        "sender": {
+            "is_me": true,
+            "type": "EMAIL",
+            "id": "cdayanand-cc@paypal.com",
+            "full_name": "Dayanand CC Chinta Raja"
+        },
+        "amount": {
+            "currency": "USD",
+            "value": "1.00"
+        },
+        "template": {
+            "background_color": "#ffeeff",
+            "id": "1"
+        },
+        "receiver": {
+            "is_me": false,
+            "type": "EMAIL",
+            "id": "me@paypal.com",
+            "full_name": "None"
+        },
+        "type": "gift",
+        "id": "hGGCmNrHSVijaHu53t4bP3SiimPBhB-p4aNu2tVFf0papKcly_XzomGR0_ma7x9wgxS2vm"
+    }
+]

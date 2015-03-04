@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.agagneja.newgiftingapp.CreateGift"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/fdblue"
+        android:id="@+id/relativeLayout2"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/amount"
+            android:hint=" Enter amount"
+            android:background="@drawable/textview"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:background="#00000000"
+            android:layout_below="@+id/amount"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/msgText"
+            android:hint=" Enter message to be sent with the gift"
+            android:layout_below="@+id/spinner"
+            android:background="@drawable/textview"
+            android:layout_marginLeft="30dp"
+
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/camera_btn"
+         android:src="@drawable/final_blue"
+        android:background="@drawable/button2"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignLeft="@+id/preview"
+        android:layout_alignStart="@+id/preview"
+        style="@style/button_text"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/gallery_button"
+        android:src="@drawable/gall"
+        android:background="@drawable/button"
+        android:scaleType="fitXY"
+        style="@style/button_text"
+        android:layout_alignTop="@+id/textViewM"
+        android:layout_alignRight="@+id/preview"
+        android:layout_alignEnd="@+id/preview"
+        android:layout_marginRight="64dp"
+        android:layout_marginEnd="64dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Preview Gift"
+        android:id="@+id/preview"
+        android:background="@drawable/tbutton"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:id="@+id/viewImg"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignBottom="@+id/relativeLayout2"
+        android:layout_alignTop="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back_btn"
+        android:visibility="invisible"
+        android:background="@drawable/tbutton"
+        android:layout_alignLeft="@+id/camera_btn"
+        android:layout_alignStart="@+id/camera_btn"
+        android:layout_alignTop="@+id/gift_send" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/gift_send"
+        android:visibility="invisible"
+        android:background="@drawable/tbutton"
+        android:layout_alignTop="@+id/preview"
+        android:layout_alignLeft="@+id/gallery_button"
+        android:layout_alignStart="@+id/gallery_button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Your Message: "
+        android:textColor="@color/fdblue"
+        android:visibility="invisible"
+        android:id="@+id/textViewM"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/camera_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Amount :"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:id="@+id/textViewA"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_above="@+id/gallery_button"
+        android:layout_alignRight="@+id/gallery_button"
+        android:layout_alignEnd="@+id/gallery_button"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Open Sent Gift"
+        android:id="@+id/openGift"
+        android:layout_alignTop="@+id/preview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/tbutton"
+        android:visibility="invisible"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgGift"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/txtGift"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/fdblue"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+    </TableRow>
+</TableLayout>

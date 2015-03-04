@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewGiftingApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_choose_contact">ChooseContact</string>
+    <string name="title_activity_create_gift">CreateGift</string>
+
+    <string-array name="currencies_array">
+        <item>USD</item>
+        <item>INR</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CAD</item>
+    </string-array>
+
+    <string name="title_activity_preview">Preview</string>
+    <string name="title_activity_send_gift">SendGift</string>
+    <string name="title_activity_get_gifts">GetGifts</string>
+    <string name="title_activity_view_gift">ViewGift</string>
+    <string name="title_activity_get_new_gift">GetNewGift</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
